@@ -11,7 +11,7 @@ namespace ProjectProgVisual.Controllers
     {
         private static IList<Categoria> categorias = new List<Categoria>()
         {
-            new Categoria() { CategoriaId = 1, Nome = "Notebooks" },
+            new Categoria() { CategoriaId = 1, Nome = "Notebook" },
             new Categoria() { CategoriaId = 2, Nome = "Monitores" },
             new Categoria() { CategoriaId = 3, Nome = "Impressoras" },
             new Categoria() { CategoriaId = 4, Nome = "Mouses" },
