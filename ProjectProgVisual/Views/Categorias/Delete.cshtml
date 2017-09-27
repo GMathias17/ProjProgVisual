@@ -9,7 +9,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Delete</title>
+    <title>Remover</title>
 </head>
 <body>
     <h3>Está certo de que deseja remover esta categoria?</h3>
@@ -29,9 +29,7 @@
     
         @using (Html.BeginForm()) {
             @Html.AntiForgeryToken()
-            @Html.HiddenFor(model => model.CategoriaId)
-
-
+    
             <div class="form-actions no-color">
                 <input type="submit" value="Remover" class="btn btn-default" /> |
                 @Html.ActionLink("Voltar para a listagem", "Index")
