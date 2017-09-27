@@ -1,5 +1,5 @@
-﻿using ProjectProgVisual.Contexts;
-using ProjectProgVisual.Models;
+﻿using ProjProgVisual.Contexts;
+using ProjProgVisual.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -8,7 +8,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ProjectProgVisual.Controllers
+namespace ProjProgVisual.Controllers
 {
     public class CategoriasController : Controller
     {
