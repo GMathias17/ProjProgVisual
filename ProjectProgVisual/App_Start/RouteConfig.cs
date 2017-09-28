@@ -17,7 +17,7 @@ namespace ProjectProgVisual
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new {
-                    controller = "Categorias",
+                    controller = "Fabricantes",
                     action = "Index",
                     id = UrlParameter.Optional }
             );
